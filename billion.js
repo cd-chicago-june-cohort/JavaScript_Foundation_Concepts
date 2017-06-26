@@ -13,8 +13,9 @@ for (var day=2; day<=30; day += 1){
     };
 }
 
-console.log ("$", reward);
+console.log ("The reward after 30 days would be $", reward);
 console.log ("The servant passed $10,000 on day " + tenThousandDay);
+console.log ("After 30 days, the reward ")
 
 while (rewardSum < 1000000000){
     reward = reward * 2;
